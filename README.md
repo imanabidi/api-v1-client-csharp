@@ -27,6 +27,11 @@ to your project's .NET version, e.g.
 
 `<TargetFramework>net46</TargetFramework>`
 
+and resolve the issues with missing namespaces in new 4.6 framework by installing System.Net.Http
+```
+PM> Install-Package System.Net.Http
+```
+
 The recommended way to install and use the library is via NuGet:
 ```
 PM> Install-Package BlockchainAPI
